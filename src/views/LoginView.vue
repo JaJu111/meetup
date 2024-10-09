@@ -141,7 +141,7 @@ export default {
     max-width: 374px
     width: 100%
     margin: 0 auto
-    padding: 48px 0
+    padding: 76px 0
   
     &-title
       margin-bottom: 32px

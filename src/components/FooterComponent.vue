@@ -12,9 +12,7 @@
 </template>
 
 <script>
-export default {
-    
-}
+export default {}
 </script>
 
 <style lang="sass">
@@ -24,7 +22,6 @@ export default {
     background-color: #f7f9fe
 
 .container
-    min-width: 1000px
     width: 100%
     margin: 0 auto
 
