@@ -143,4 +143,9 @@ export default {
     border: 0.1px solid #c6c6c6
     border-radius: 50%
 
+
+@media (max-width: 460px)
+    .navbar li
+        font-size: 18px
+
 </style>

@@ -166,13 +166,14 @@ export default {
 
 <style lang="sass" scoped>
   .main
+    display: flex
+    justify-content: center
     background-color: #f7f9fe
   
   .login
     max-width: 374px
     width: 100%
-    margin: 0 auto
-    padding: 48px 0
+    padding: 75px 0
   
     &-title
       margin-bottom: 32px
@@ -285,5 +286,13 @@ export default {
   
   .login-form__input.invalid
     border: 2px solid red
+
+
+@media (max-width: 460px)
+    .login
+        padding: 75px 24px
+
+    .form-append
+        font-size: 16px
   
   </style>
